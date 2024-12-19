@@ -1,0 +1,124 @@
+/* h3{
+    color: blanchedalmond;
+} */
+ /* .one{
+    color: blue;
+ } */
+  /* #two{
+    color: rgb(23, 220, 111);
+  } */
+/* a[href$='in']{
+    color: bisque;
+} */
+ /* a[href*='g']{
+    color:brown;
+ } */
+
+  /* div p{
+    color: rgb(18, 231, 54);
+ }
+ li:nth-of-type(even){
+    color:chartreuse;
+ }
+ :last-child{
+    color:crimson;
+ } */
+
+ /* div{
+    background-color:red;
+    height: 300px;
+    width: 300px;
+    transition: 20s;
+ }
+ div:hover{
+    background-color: purple;
+    border-radius: 50%;
+ } */
+
+
+      /*   CSS Units */
+      /* Absoulte Units means Fix things */
+      /* Relative Units are used for responsive website and they are not fixed.*/
+/* #parent{
+   background-color: red;
+   height: 200px;
+   width: 200px;
+}   */
+/* #child{
+   background-color: green;
+   height:50%;
+   width: 50%;
+}   */
+/* #parent{
+   background-color: red;
+   height: 100vh;
+   width: 100vw;
+}  
+#child{
+   background-color:green;
+   height: 50%;
+   width: 50%;
+} */
+ /* REM apne main parent ka double lete ha */
+ /* ul{
+   font-size: 2rem;
+ } */
+
+ /* EM apne child class ka double leta haa */
+  /* li{
+   font-size: 2em;
+  } */
+
+  /* Display Property */
+
+  /* div{
+   background-color: red;
+   height:200px;
+   width: 200px;
+   /* display:inline; */
+   /* display:none; */
+   /* visibility: hidden; */
+  
+  /* span{
+   background-color: greenyellow;
+   height:200px;
+   width: 200px;
+   display:block;
+   display:inline-block
+  } */
+
+  /* Box Model */
+  /* div{
+   border: 2px solid black;
+   height: 200px;
+   width: 200px;
+   padding:20px;
+   margin:20px;
+  } */
+
+
+  /*  CSS Properties */
+  div{
+   height: 100px;
+   width: 100px;
+   display:inline-block
+  }
+  div:nth-of-type(1){
+   background-color: red;
+  }
+  div:nth-of-type(2){
+   background-color: green;
+     /* position: static;
+     position: relative;  */
+     position: fixed;
+     /* top: 5px; */
+     /* left: 10px; 
+     right: 10px; 
+      top: 100px;
+     left: 100px;  */
+   
+  }
+  div:nth-of-type(3){
+   background-color: pink;
+     position: static;
+  }
