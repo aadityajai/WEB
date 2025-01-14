@@ -1,1 +1,3 @@
-This is my First Git Repository. Author - Aaditya Jaiswal
+This is my First Git Repository.
+<br>
+Author - Aaditya Jaiswal
